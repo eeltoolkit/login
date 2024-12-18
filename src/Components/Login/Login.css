@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    padding-bottom: 10px;
+    width: 600px;
+    border-radius: 20px;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    font-size:  48px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#0569e3 , #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.underline{
+    width: 500px;
+    height: 3px;
+    background: #3c009d;
+    border-radius: 10px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin:  auto;
+    width: 480px;
+    height: 80px;
+    border-radius: 6px;
+    
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 19px;
+}
+
+.have-account{
+    padding-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: black ;
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+    margin-bottom: 20px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 60px;
+    color: #fff;
+    background: linear-gradient(#62a6f9, #0b0193);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
